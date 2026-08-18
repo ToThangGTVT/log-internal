@@ -1,0 +1,3 @@
+# JitPack mac dinh dung JDK 8, ma SDK build voi release 11 -> phai chi dinh JDK moi hon.
+jdk:
+  - openjdk17

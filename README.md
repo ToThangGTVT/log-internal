@@ -9,16 +9,27 @@ SDK Java gửi log về admin nội bộ (`POST /api/log`). Không kéo theo dep
 
 ## Cài đặt
 
-```bash
-mvn install
-```
+Lấy qua [JitPack](https://jitpack.io) — không cần token, không cần cài gì trước:
 
 ```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
 <dependency>
-    <groupId>com.utc.blog</groupId>
-    <artifactId>log-sdk</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.github.ToThangGTVT</groupId>
+    <artifactId>log-internal</artifactId>
+    <version>v1.0.0</version>
 </dependency>
+```
+
+Muốn dùng bản đang sửa dở thì thay version bằng `main-SNAPSHOT`, hoặc build tại chỗ:
+
+```bash
+./mvnw install
 ```
 
 ## Dùng

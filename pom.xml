@@ -38,15 +38,6 @@
         </dependency>
     </dependencies>
 
-    <!-- Xuat ban len GitHub Packages cua chinh repo nay: mvn deploy -->
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages - log-internal</name>
-            <url>https://maven.pkg.github.com/ToThangGTVT/log-internal</url>
-        </repository>
-    </distributionManagement>
-
     <build>
         <plugins>
             <plugin>
